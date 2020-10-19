@@ -1,0 +1,91 @@
+/* kbs_style.css */
+
+#marginoverall {
+	margin-left:3em;
+	margin-right:3em;
+	margin-top:1em;
+	
+}
+
+#leftcolumn {
+	float:left;
+	width:75%;
+}
+
+#rightcolumn {
+	float:right;
+	width:25%;
+	padding-left: 3em;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	overflow: auto;
+	height: 500px;
+}
+
+.tacontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+	
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+	transition: background-color .2s;
+}
+
+tr:hover{
+	background-color:#383838;
+}
+
+.center {
+	text-align: center;
+}
+
+ul {
+	text-transform: capitalize;
+}

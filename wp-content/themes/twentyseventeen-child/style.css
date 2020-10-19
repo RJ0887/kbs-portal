@@ -1,0 +1,197 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+ * {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+/*--------------------------------------------------------------
+13.2 Front Page
+--------------------------------------------------------------*/
+.twentyseventeen-front-page .site-content {
+	padding: 0;
+	padding-top: 3em;	
+}
+
+/* Panel edit link */
+.twentyseventeen-panel .edit-link {
+	display: block;
+	margin: 0.3em 0 0;
+	display:none;
+}
+
+.twentyseventeen-panel .entry-header .edit-link {
+	font-size: 14px;
+	font-size: 0.875rem;
+	display:none;	
+}
+
+/*--------------------------------------------------------------
+13.4 Posts
+--------------------------------------------------------------*/
+/* Single Post */
+.single-post:not(.has-sidebar) #primary,
+.page.page-one-column:not(.twentyseventeen-front-page) #primary,
+.archive.page-one-column:not(.has-sidebar) .page-header,
+.archive.page-one-column:not(.has-sidebar) #primary {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1366px;
+}
+
+/* Post Formats */
+
+.blog .format-status .entry-title,
+.archive .format-status .entry-title,
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+13.5 Pages
+--------------------------------------------------------------*/
+.page .entry-header .edit-link {
+	font-size: 14px;
+	font-size: 0.875rem;
+    display: none;
+}
+
+/*--------------------------------------------------------------
+19.0 Media Queries
+--------------------------------------------------------------*/
+@media screen and (min-width: 28em) {
+	.navigation-top .wrap {
+		max-width: 1366px;
+		/* The font size is 14px here and we need 50px padding in ems */
+		padding: 0.75em 3.4166666666667em;
+	}
+	
+	.site-header .site-navigation-fixed .menu-scroll-down {		
+		max-width: 1366px;
+	}
+	
+	/* Posts */
+	.site-content {
+		padding: 1.5em 0 0;
+	}
+	
+	.entry-footer .edit-link {
+		display: table-cell;
+		text-align: right;
+		vertical-align: middle;
+		display: none;
+	}
+	
+	/* Pages */
+	.page.page-one-column .entry-header,
+	.twentyseventeen-front-page.page-one-column .entry-header,
+	.archive.page-one-column:not(.has-sidebar) .page-header {
+		margin-bottom: 1em;
+	}
+}
+
+/*Custom Menu Images
+---------------------------------------------------------------------------- */
+.home-menu-image a{
+	color:black !important;
+	padding-left: 30px !important;
+	background-image: url(/wordpress/wp-content/themes/twentyseventeen/assets/images/logo_company.png);
+	background-position: left;
+	background-repeat: no-repeat;
+
+}
+
+.navigation-top {
+	border-top: none !important;
+	background-color: black !important;
+	
+	/* background-image: url("nav_dark.jpg");
+	background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+.navigation-top li {
+	color: white !important;
+}
+
+.navigation-top li li {
+	color: white !important;
+}
+
+
+.main-navigation a{
+	color: #999999 !important;
+}
+
+.main-navigation ul ul a{
+	color: black !important;
+}
+
+.main-navigation ul ul a:hover{
+	color: white !important;
+	background-color: black !important;
+}
+
+.navigation-top .wrap {
+	padding: 5px 0px 0px 50px !important;
+}
+
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a {
+	color: white !important;
+	box-shadow: inset 0 -6px 0 0 #0229bf !important;
+}
+
+.main-navigation a:hover{
+	color: white !important;
+}
+
+/* .site-content {
+	background-image: url("white.jpg");
+	background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ */
+ 
+/*  .site-content {
+	background: url("white.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+} */
+
+ 
+
+.site-footer {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-top: 0em;
+	background-color: black;
+	color: white;
+}
+
+.site-footer .wrap{
+    padding-left:0px;
+}
+
+
+
+
+
+
+
+
+
